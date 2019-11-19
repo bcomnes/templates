@@ -27,5 +27,10 @@
     "test:deps": "dependency-check . --no-dev --no-peer",
     "test:standard": "standard",
     "test:tape": "tape test.js"
+  },
+  "standard": {
+    "ignore": [
+      "dist"
+    ]
   }
 }
