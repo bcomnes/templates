@@ -1,1 +1,3 @@
-console.log('hi')
+module.exports = {
+  foo: 'bar'
+}

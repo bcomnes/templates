@@ -1,7 +1,6 @@
-const tape = require('tape')
-const ptape = require('tape-promise').default
-const test = ptape(tape)
+const tap = require('tap')
+const { foo } = require('./index')
 
-test('a test', async t => {
-  t.ok('pass')
+tap.test('a test', async t => {
+  t.equal(foo, 'bar')
 })
