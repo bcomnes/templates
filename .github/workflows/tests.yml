@@ -3,10 +3,10 @@ name: tests
 on: [push]
 
 jobs:
-  build:
-
+  test:
     runs-on: ${{ matrix.os }}
 
+    strategy:
       matrix:
         os: [ubuntu-latest]
         node: [12]
@@ -17,7 +17,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node }}
-    - name: npm install, build, and test
+    - name: npm install && npm test
       run: |
         npm i
         npm test
