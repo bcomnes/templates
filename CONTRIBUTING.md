@@ -1,7 +1,5 @@
 # Contributing
 
-- Contributors reserve the right to walk away from this project at any moment with or without notice.
-- Questions are welcome, however unless there is a official support contract established between the maintainers and the requester, support is not guaranteed.
 - Patches, ideas and changes welcome.
 - Fixes almost always welcome.
 - Features sometimes welcome.
@@ -10,3 +8,5 @@
 - All tests must pass.
 - Additional features or code paths must be tested.
 - Aim for 100% coverage.
+- Questions are welcome, however unless there is a official support contract established between the maintainers and the requester, support is not guaranteed.
+- Contributors reserve the right to walk away from this project at any moment with or without notice.
