@@ -35,5 +35,9 @@
     "ignore": [
       "dist"
     ]
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/bcomnes"
   }
 }
